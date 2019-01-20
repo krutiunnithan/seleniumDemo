@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="165577" started-at="2019-01-20T12:07:04Z" finished-at="2019-01-20T12:09:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="47956" started-at="2019-01-20T12:07:04Z" finished-at="2019-01-20T12:07:52Z">
+      <class name="Academy.navigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.navigationBar@6a3f77]" name="initialize" is-config="true" duration-ms="45247" started-at="2019-01-20T17:37:04Z" finished-at="2019-01-20T17:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="bar()[pri:0, instance:Academy.navigationBar@6a3f77]" name="bar" duration-ms="211" started-at="2019-01-20T17:37:50Z" finished-at="2019-01-20T17:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.navigationBar@6a3f77]" name="tearDown" is-config="true" duration-ms="2431" started-at="2019-01-20T17:37:50Z" finished-at="2019-01-20T17:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.navigationBar -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="74574" started-at="2019-01-20T12:07:52Z" finished-at="2019-01-20T12:09:07Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@13fcdbd]" name="initialize" is-config="true" duration-ms="3456" started-at="2019-01-20T17:37:52Z" finished-at="2019-01-20T17:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@13fcdbd]" name="invokeBrowser" duration-ms="51442" started-at="2019-01-20T17:37:56Z" data-provider="getData" finished-at="2019-01-20T17:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RestrictedUser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login trial for Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@13fcdbd]" name="invokeBrowser" duration-ms="17509" started-at="2019-01-20T17:38:47Z" data-provider="getData" finished-at="2019-01-20T17:39:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NonRestrictedUser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login trial for Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.HomePage@13fcdbd]" name="tearDown" is-config="true" duration-ms="2154" started-at="2019-01-20T17:39:05Z" finished-at="2019-01-20T17:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="42870" started-at="2019-01-20T12:09:07Z" finished-at="2019-01-20T12:09:50Z">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@bbc1e0]" name="initialize" is-config="true" duration-ms="40221" started-at="2019-01-20T17:39:07Z" finished-at="2019-01-20T17:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="titlevalidation()[pri:0, instance:Academy.validateTitle@bbc1e0]" name="titlevalidation" duration-ms="246" started-at="2019-01-20T17:39:47Z" finished-at="2019-01-20T17:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlevalidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Academy.validateTitle@bbc1e0]" name="tearDown" is-config="true" duration-ms="2401" started-at="2019-01-20T17:39:48Z" finished-at="2019-01-20T17:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

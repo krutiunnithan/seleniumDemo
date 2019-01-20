@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+
+<suite name="Suite">
+ 
+ <Listeners>
+
+    <Listener class-name="Academy.listener"/>
+    <Listener class-name="resources.ExtentReporterNG"/>
+
+ </Listeners>
+
+
+
+  <test name="Test">
+    <classes>
+      <class name="Academy.navigationBar"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test1">
+    <classes>
+      
+      <class name="Academy.HomePage"/> 
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      
+      <class name="Academy.validateTitle"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->
